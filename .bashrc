@@ -19,4 +19,3 @@ bg_black='\[\e[40m\]'
 smiley="\$(if [[ \$? == 0 ]]; then echo \"${green}${bg_black}|^.^|\"; else echo \"${red}${bg_black}|>.<|\"; fi)"
 
 PS1="${smiley}${reset_color}${yellow}(\t)${blue}\w ${yellow}\$ ${reset_color}"
-#PS1="${yellow}(\t)${blue}\w ${yellow}\$ ${reset_color}"
